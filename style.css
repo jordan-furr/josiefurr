@@ -1,8 +1,3 @@
-:root {
-    --one: #2877ff;
-    --two: #ff6d12;
-}
-
 html,
 body {
     height: 100vh;
@@ -10,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.15;
     scroll-behavior: auto;
 }
 
@@ -409,6 +404,10 @@ h6 {
     padding-top: 1.5rem;
 }
 
+.pt9 {
+    padding-top: 6rem;
+}
+
 .ph1 {
     padding-left: .25rem;
     padding-right: .25rem;
@@ -747,27 +746,57 @@ h6 {
 
 /* PROJECT SPECIFIC */
 
-.home {
-    padding: 1.5rem;
+:root {
+    --one: #a84222;
+    --two: #ff6d12;
 }
 
-.header-cont {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+body {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.menu-item {
-    text-decoration: none;
-    color: black;
+.name-cont {
+    color: white;
 }
 
-.email-button {
+.header {
+    background-color: #a84222;
+    padding: 1rem;
+    padding-top: 6rem;
     box-sizing: border-box;
-    padding: 12px 28px;
-    border: 1px solid black;
-    display: inline;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
+    color: white;
+}
+
+.page {
+    padding: 2rem 1rem;
+}
+
+.subtitle {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    margin-bottom: .5rem;
+}
+
+
+
+
+
+
+@media (min-width: 840px)  {
+    .webrow {
+        flex-direction: row;
+    }
+    .web33 {
+        width: 33.33%;
+        padding-right: 1rem;
+    }
+    .web50 {
+        width: 50%;
+        padding-right: 1rem;
+    }
+    .web66 {
+        width: 66.66%;
+        padding-right: 1rem;
+    }
 }
