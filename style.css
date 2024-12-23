@@ -747,7 +747,7 @@ h6 {
 /* PROJECT SPECIFIC */
 
 :root {
-    --one: #a84222;
+    --one: #a62c37;
     --two: #ff6d12;
 }
 
@@ -761,7 +761,7 @@ body {
 }
 
 .header {
-    background-color: #a84222;
+    background-color: var(--one);
     padding: 1rem;
     padding-top: 6rem;
     box-sizing: border-box;
@@ -781,22 +781,23 @@ body {
 
 
 
-
-
 @media (min-width: 840px)  {
-    .webrow {
+    .web-row {
         flex-direction: row;
     }
-    .web33 {
+    .web-33 {
         width: 33.33%;
         padding-right: 1rem;
     }
-    .web50 {
+    .web-50 {
         width: 50%;
         padding-right: 1rem;
     }
-    .web66 {
+    .web-66 {
         width: 66.66%;
         padding-right: 1rem;
+    }
+    .web-right {
+        float: right;
     }
 }
